@@ -10,29 +10,33 @@
 <body>
 <!-- Header
 =============== -->
-<header class="header">
-    <h1 class="header__title">Header logo</h1>
+<header class="header script_5" id="block_1">
+    <div class="header__inner">
+        <h1 class="header__title">Header logo</h1>
+        <div class="menu__icon">
+            <span class="menu__icon__item"></span>
+        </div>
 
-
-    <div class="menu__icon">
-        <span class="menu__icon__item"></span>
+        <nav class="nav">
+            <a href="index.html" class="nav__link active">HOME</a>
+            <a href="" class="nav__link">Page_1</a>
+            <a href="" class="nav__link">Page_2</a>
+            <a href="" class="nav__link">Page_3</a>
+            <a href="" class="nav__link">Page_4</a>
+            <a href="" class="nav__link">Page_5</a>
+        </nav>
     </div>
 
-    <nav class="nav">
-        <a href="index.html" class="nav__link active">HOME</a>
-        <a href="" class="nav__link">Page_1</a>
-        <a href="" class="nav__link">Page_2</a>
-        <a href="" class="nav__link">Page_3</a>
-        <a href="" class="nav__link">Page_4</a>
-        <a href="" class="nav__link">Page_5</a>
-    </nav>
+    <button class="select__btn" id="block_1_btn">Add selection</button>
+    <ul class="list__selection" id="block_1_list">
+    </ul>
 </header>
-
 <!-- Main
 =============== -->
 <main class="main">
-    <aside class="left__aside">
+    <aside class="left__aside script_5" id="block_2">
         <h2 class="aside__title">Left side BAR</h2>
+
         <ul class="list">
             <li class="list__item">1 comment</li>
             <li class="list__item">2 comment</li>
@@ -42,42 +46,64 @@
             <li class="list__item">6 comment</li>
 
         </ul>
+        <button class="select__btn" id="block_2_btn">Add selection</button>
+        <ul class="list__selection" id="block_2_list">
+        </ul>
     </aside>
 
 
     <div class="content">
-        <div class="main__title">
+        <div class="main__title script_5" id="block_3">
             Information
+            <div>
+                <button class="select__btn" id="block_3_btn">Add selection</button>
+                <ul class="list__selection" id="block_3_list">
+                </ul>
+            </div>
+        </div>
+        <div class="main__text script_5" id="block_5">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
+                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
+                reprehenderit, qui veritatis vel quas.</p>
+
+
+            <button class="select__btn" id="block_5_btn">Add selection</button>
+            <ul class="list__selection" id="block_5_list">
+            </ul>
+        </div>
+        <div class="main__form">
+            <button class="swap__btn" >swap(1)</button>
+            <input class="main__input" type="text" placeholder="Number" onkeydown="alertInput(this)">
+            <button class="restart__btn">Restart mouseout</button>
+            <div class="mouseout__radio__btns">
+                2 <input type="checkbox" class="checkbox_2">
+                4 <input type="checkbox" class="checkbox_4">
+                5 <input type="checkbox" class="checkbox_5">
+            </div>
         </div>
 
-        <div class="main__text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
-                totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
-                reprehenderit, qui veritatis vel quas.</p>
-
-
-        </div>
     </div>
     <aside class="right__aside">
-        <div class="right__aside__content">
+        <div class="right__aside__content script_5" id="block_4">
             <h2 class="aside__title">Right side BAR</h2>
             <div class="right__aside__images">
-<!--                <img class="right__aside__item" src="assets/images/1.jfif" alt="" usemap="#testmap">-->
+                <!--                <img class="right__aside__item" src="assets/images/1.jfif" alt="" usemap="#testmap">-->
                 <img class="right__aside__item" src="assets/images/1.jfif" alt="" usemap="#testmap">
                 <map name="testmap">
                     <area shape="circle" coords="0, 0, 1000, 1000" href="" alt="page 1">
@@ -86,25 +112,46 @@
                 <!--                    <img class="right__aside__item" src="assets/images/3.jfif" alt="">-->
                 <!--                    <img class="right__aside__item" src="assets/images/3.jfif" alt="">-->
             </div>
+            <div class="test__right__bar">
+                some text to test align
+            </div>
+
+            <button class="select__btn" id="block_4_btn">Add selection</button>
+            <ul class="list__selection" id="block_4_list">
+            </ul>
         </div>
 
-        <div class="right__aside__info">
+        <div class="right__aside__info script_5" id="block_6">
             some info about Bar
 
-
+            <button class="select__btn" id="block_6_btn">Add selection</button>
+            <ul class="list__selection" id="block_6_list">
+            </ul>
         </div>
     </aside>
 </main>
 
 <!-- Footer
 =============== -->
-<footer class="footer">
-    <div class="footer__content">
-        some content
+<footer class="footer script_5" id="block_7">
+    <div class="footer__inner">
+        <div class="footer__content">
+            some content
+        </div>
+        <h2 class="footer__title">Footer</h2>
     </div>
-    <h2 class="footer__title">Footer</h2>
+
+    <button class="select__btn" id="block_7_btn">Add selection</button>
+    <ul class="list__selection" id="block_7_list">
+    </ul>
+
 </footer>
 
 <script src="script.js"></script>
+<script src="script_1.js"></script>
+<script src="script_2.js"></script>
+<script src="script_3.js"></script>
+<script src="script_4.js"></script>
+<script src="script_5.js"></script>
 </body>
 </html>
