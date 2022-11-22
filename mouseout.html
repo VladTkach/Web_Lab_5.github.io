@@ -10,7 +10,7 @@
 <body>
 <!-- Header
 =============== -->
-<header class="header">
+<header class="header ">
     <div class="header__inner">
         <h1 class="header__title">Header logo</h1>
         <div class="menu__icon">
@@ -18,19 +18,20 @@
         </div>
 
         <nav class="nav">
-            <a href="index.html" class="nav__link active">HOME</a>
+            <a href="index.html" class="nav__link">HOME</a>
             <a href="swap.html" class="nav__link">Swap</a>
             <a href="area.html" class="nav__link">Area</a>
             <a href="max.html" class="nav__link">Max</a>
-            <a href="mouseout.html" class="nav__link ">Mouseout</a>
+            <a href="mouseout.html" class="nav__link active">Mouseout</a>
             <a href="UlCreate.html" class="nav__link">UlCreate</a>
         </nav>
     </div>
+
 </header>
 <!-- Main
 =============== -->
 <main class="main">
-    <aside class="left__aside">
+    <aside class="left__aside " >
         <h2 class="aside__title">Left side BAR</h2>
 
         <ul class="list">
@@ -46,10 +47,10 @@
 
 
     <div class="content">
-        <div class="main__title " >
+        <div class="main__title script_5" id="block_3">
             Information
         </div>
-        <div class="main__text script_5" id="block_5">
+        <div class="main__text" >
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora consequuntur mollitia cupiditate
                 totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
@@ -70,12 +71,19 @@
                 totam exercitationem commodi inventore delectus sint repellendus odio aut, quae sunt porro
                 reprehenderit, qui veritatis vel quas.</p>
 
-
+        </div>
+        <div class="main__form">
+            <button class="restart__btn">Restart mouseout</button>
+            <div class="mouseout__radio__btns">
+                2 <input type="checkbox" class="checkbox_2">
+                4 <input type="checkbox" class="checkbox_4">
+                5 <input type="checkbox" class="checkbox_5">
+            </div>
         </div>
 
     </div>
     <aside class="right__aside">
-        <div class="right__aside__content">
+        <div class="right__aside__content ">
             <h2 class="aside__title">Right side BAR</h2>
             <div class="right__aside__images">
                 <!--                <img class="right__aside__item" src="assets/images/1.jfif" alt="" usemap="#testmap">-->
@@ -87,9 +95,13 @@
                 <!--                    <img class="right__aside__item" src="assets/images/3.jfif" alt="">-->
                 <!--                    <img class="right__aside__item" src="assets/images/3.jfif" alt="">-->
             </div>
+            <div class="test__right__bar">
+                some text to test align
+            </div>
+
         </div>
 
-        <div class="right__aside__info" >
+        <div class="right__aside__info script_5" id="block_6">
             some info about Bar
         </div>
     </aside>
@@ -97,7 +109,7 @@
 
 <!-- Footer
 =============== -->
-<footer class="footer ">
+<footer class="footer">
     <div class="footer__inner">
         <div class="footer__content">
             some content
@@ -105,9 +117,9 @@
         <h2 class="footer__title">Footer</h2>
     </div>
 
-
 </footer>
 
 <script src="script.js"></script>
+<script src="script_4.js"></script>
 </body>
 </html>

@@ -208,6 +208,10 @@ aside {
     align-items: center;
 }
 
+.main__input {
+    margin-bottom: 20px;
+}
+
 .restart__btn {
     margin: 10px 0;
 }

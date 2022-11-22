@@ -14,7 +14,7 @@ window.addEventListener('load', (event) => {
 
 function alertInput(input){
     if (event.key === "Enter"){
-        if (!isNaN(input.value)){
+        if (!isNaN(input.value) && input.value !== ""){
             var min = 0
             for (i =0; i <= input.value.length; i++){
                 if (input.value[i] > min){
