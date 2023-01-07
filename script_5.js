@@ -28,7 +28,7 @@ function closeSelectionBtn(){
 document.querySelectorAll(".select__btn").forEach((btn) => {
     btn.addEventListener("click", () =>{
         console.log("click" + btn.id.toString());
-        document.getElementById(btn.id.replace("_btn", "_rbtn")).classList.add("active__btn");
+        document.getElementById(btn.id.toString().replace("_btn", "_rbtn")).classList.add("active__btn");
         var ul = document.getElementById(btn.id.replace("_btn", "_list"));
         var li = document.createElement("li");
         var text = document.createTextNode(document.getSelection().toString());
