@@ -259,6 +259,12 @@ footer {
     width: 200px;
     margin: 0 auto;
 }
+
+.clear__btn {
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+}
 .active__btn{
     display: block;
 }
